@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css"
+/* Use a media query to add a breakpoint at 800px: */
+;
+.div{
+    width: 33%;
+}
+@media screen and (max-width: 1025px) {
+  .div{
+    width: 70%; 
+  }
+  .d{
+    width: 0px !important; 
+   }
+   #memuButton{
+   
+    display: none !important;
+   }
+
+   #profile{
+    position: absolute !important;
+    top: 3px !important;
+    right: 10px !important;
+   }
+   #noti{
+    position: absolute !important;
+    top: 3px !important;
+    right: 80px !important;
+   }
+
+   .fitC{
+    width: fit-content;
+   }
+
+   #in{
+    display: none !important;
+   }
+
+   .shows{
+    display: none !important;
+   }
+   .dd{
+    width: 500px !important;
+    position: absolute !important; 
+   }
+
+   #Boff{
+   
+    position: absolute !important;
+    top: 3px !important;
+    left: 10px !important;
+    display: block !important;
+   }
+
+   
+   
+}
+  @media screen and (max-width: 600px) {
+    .div{
+      width: 90%;
+
+    }
+    #chartDiv{
+      width: 400px !important;
+      margin: 20px !important;
+    }
+    #colDiv{
+      width: 400px !important;
+      margin: 20px !important;
+    }
+
+    #colDiv1{
+      width: 400px !important;
+      margin: 20px !important;
+    }
+    #mon{
+      width: 1000px !important;
+      margin-top: 30px !important;
+    }
+
+    .eight{
+      width: 80% !important;
+      margin-top: 20px !important;
+    }
+
+    #hunred{
+      width: 100% !important;
+    }
+   
+    
+}
+
+
+.active{
+  background-color :  #E4A11B !important;
+  color: white !important;
+ 
+}
+
+.card{
+  border-radius: 1em;
+}

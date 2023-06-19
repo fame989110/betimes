@@ -1,0 +1,39 @@
+
+<div class="container mt-5 div" style=" background-color: white; " >
+    <img class="mt-5 " src="assets/images/beauty.png" style="width: 80%;     margin-left: 10%;" >
+    <h5 class="mt-4 mx-5">Register</h5>
+    
+    <form [formGroup]="addUserForm" class="m-5 mt-3">
+        <div class="form-group">
+          <label class="mb-2 text-primary" for="Username" style="font-size: small;">Username:</label>
+          <input formControlName="Addname"  type="text" class="form-control" >
+         
+        </div>
+
+        <div class="form-group mt-2">
+            <label class="mb-2 text-primary" for="Email" style="font-size: small;">Email:</label>
+            <input formControlName="Addemail"  type="text" class="form-control" >
+           
+          </div>
+        <div class="form-group mt-2">
+            <label class="mb-2 text-primary" for="password" style="font-size: small;">password:</label>
+            <input formControlName="Addpassword"  type="password" class="form-control" >
+           
+          </div>
+
+          <div class="form-group mt-2">
+            <label class="mb-2 text-primary" for="password" style="font-size: small;">Confirm password:</label>
+            <input formControlName="Addcpassword"  type="password" class="form-control" >
+           
+          </div>
+    
+        <button type="submit" (click)="register()" class="btn text-light w-100 mt-4 " style=" border-radius: 22px;height: 60px; background: #66CCFF;">Submit</button>
+        <h6 class="mt-4 mx-3">OR</h6>
+        <button type="submit" (click)="back()" class="btn text-light w-100 mt-4 mb-5" style=" border-radius: 22px;height: 60px; background: #66CCFF;">Back</button>
+       
+        &nbsp;
+ 
+      </form>
+      
+</div>
+
