@@ -153,9 +153,9 @@ export class TrackingComponent {
  
   }
 
-  home(){
+  /*home(){
     this.router.navigateByUrl('home')
-  }
+  }*/
 
   logOut(){
     this.router.navigateByUrl('/_login')
